@@ -1,9 +1,19 @@
-import AnimatedElement from "@/components/animation/AnimatedElement";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Hero from "@/components/hero";
+import Highlights from "@/components/highlights";
+import History from "@/components/history";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center  p-24">
-      <AnimatedElement element="div" className="border border-red w-[250px] aspect-square shadow-lg" initial={{opacity:0, x:100}} animate={{opacity:1, x:0}}>THIS IS BOX</AnimatedElement>
+    <main className="flex min-h-screen flex-col">
+      <Hero/>
+      <About/>
+      <History/>
+      <Highlights/>
+      <Projects/>
+      <Contact/>
     </main>
   )
 }

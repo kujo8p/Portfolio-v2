@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "esbenp.prettier-vscode",
+    "wix.vscode-import-cost",
+    "styled-components.vscode-styled-components"
+  ]
+}
